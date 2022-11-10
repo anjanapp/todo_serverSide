@@ -9,8 +9,6 @@ const Consumer = mongoose.model('Consumer',{
     uid:Number,
     username:String,
     password:String,
-    // date:Date,
-    // todo:String,
     title:String,
     description:String,
     todos:[] 
